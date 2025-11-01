@@ -1,0 +1,63 @@
+[Running] lua "c:\Users\perso\Desktop\test\questline.lua"
+[To Pylea - No steps completed]
+
+Quest:	To Pylea
+----------------------------------------
+1. Help Wesley research opening a new portal          [ ]
+2. Ask Lorne to locate a mystical hot spot            [ ]
+3. Enter the portal to Pylea                          [ ]
+----------------------------------------
+
+[To Pylea - Progress - First step]
+Help Wesley research opening a new portal[Completed!]
+
+[To Pylea - First Step completed]
+
+Quest:	To Pylea
+----------------------------------------
+1. Help Wesley research opening a new portal          [✔]
+2. Ask Lorne to locate a mystical hot spot            [ ]
+3. Enter the portal to Pylea                          [ ]
+----------------------------------------
+
+[To Pylea - Progress - Second step]
+Ask Lorne to locate a mystical hot spot[Completed!]
+
+[To Pylea - Second Step completed]
+
+Quest:	To Pylea
+----------------------------------------
+1. Help Wesley research opening a new portal          [✔]
+2. Ask Lorne to locate a mystical hot spot            [✔]
+3. Enter the portal to Pylea                          [ ]
+----------------------------------------
+
+[To Pylea - Progress - Third step]
+Enter the portal to Pylea[Completed!]
+Quest complete: To Pylea
+
+Quest:	To Pylea
+----------------------------------------
+1. Help Wesley research opening a new portal          [✔]
+2. Ask Lorne to locate a mystical hot spot            [✔]
+3. Enter the portal to Pylea                          [✔]
+Quest Complete!
+----------------------------------------
+Rewards:
+fur mantle added to inventory
+Crebbil added to inventory
+----------------------------------------
+Buff Received: Daywalking -
+Your human side is dominant in Pylea.
+You are able to walk in sunlight,
+and you've noticed you have a reflection.
+...and why has no one ever told you
+about your hair?
+
+Debuff Received: Van-Tal -
+When accessing your inner-demon;
+You take on the true form of your inner-demon. 
+You enter a berserk-like state with no control.
+
+[Done] exited with code=0 in 0.03 seconds
+

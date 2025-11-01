@@ -6,7 +6,7 @@ local over_the_rainbow = {
     "Enter the portal to Pylea", 
     --[/Quest steps]
     title = "To Pylea", --> Quest Title
-    reward = {"fur mantle", "Crebbil"}, --> Quest rewards (items) as an array.
+    rewards = {"fur mantle", "Crebbil"}, --> Quest rewards (items) as an array.
     --[Auras] buff/debuffs received upon quest completion.
     auras = {buff = {["Daywalking"] = "Your human side is dominant in Pylea.\nYou are able to walk in sunlight,\nand you've noticed you have a reflection.\n...and why has no one ever told you\nabout your hair?"},
             -- buff = {["<Buff Name>"] = "Buff description"}
@@ -23,8 +23,8 @@ local over_the_rainbow = {
 local function questRewards(questTable)
     print("\n{[( )]}<<<Rewards>>>{[( )]}") -->Prints a "fancy" header...
     if questTable.completed == true then --> checks if true/false flag is "true"...
-        if questTable.reward then --> checks if there are quest reward items...
-            for i, v in ipairs(questTable.reward) do
+        if questTable.rewards then --> checks if there are quest reward items...
+            for i, v in ipairs(questTable.rewards) do
                 print(v .. " - added to inventory") --> prints each reward as "<Reward-Name> - added to inventory"
             end
         end
